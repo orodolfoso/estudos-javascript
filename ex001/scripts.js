@@ -36,8 +36,50 @@
 
 // 5 - ESTRUTURA DE CONTROLES - if
 
-const user = 'Rodolfo'
+// const user = 'Rodolfo'
 
-if(user === 'Rodolfo' ) {
-    console.log("Acessado!")
+// if(user === 'Rodolfo' ) {
+//     console.log("Acessado!")
+// }
+
+// 6 - ESTRUTURA DE CONTROLES - else
+
+
+// const logedIn = true
+
+// if(logedIn ) {
+//     console.log('Está autenticado')
+// }else {
+//  console.log('Não está autenticado')
+// }
+
+// const q = 10
+// const w = 20
+
+// if(q > 5 && w > 10) {
+//     console.log('Numeros mais altos')
+// }else {
+//     console.log("Os números não são mais altos!")
+// }
+
+// 7 - ESTRUTURA DE CONTROLES - else if
+
+if(1 > 2) {
+    console.log('Teste')
+}else if(2 > 3) {  
+    console.log('Teste2')
+}else if(5 > 4) {
+    console.log('Agora sim!')
+}
+
+const Username = 'Rodolfo'
+const Userage = 39
+
+if(Username === "José" ) {
+    console.log('Acesso negado')
+
+}else if (Username === 'Rodolfo' && Userage === 39) {
+    console.log(`Seja bem vindo de volta! ${Username}`)
+}else {
+    console.log('Nenhuma condição foi aceita')
 }
