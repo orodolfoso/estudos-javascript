@@ -58,3 +58,24 @@
 
 //     console.log(s)
 // }
+
+// 6 - Switch
+
+// const job = 'Médico'
+
+// switch (job) {
+//     case "Progrmador":
+//         console.log('Você é um progrmador!')
+//         break;
+//     case "Advogado": 
+//     console.log('Você é um Advogado!')
+//         break;
+//     case "Médico":
+//         console.log('Você é um Médico')
+//         break    
+//     default:
+//         console.log('Profissão não encontrada')
+//         break;
+// }
+
+
