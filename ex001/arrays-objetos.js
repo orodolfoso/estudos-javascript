@@ -131,3 +131,126 @@
 
 // 11 - Push e PoP
 
+// const array = ['a', 'b', 'c']
+
+// array.push('d')
+
+// console.log(array)
+
+// console.log(array.length)
+
+// array.pop()
+
+// console.log(array)
+
+// const elementoRemovido = array.pop()
+
+// console.log(elementoRemovido)
+
+// console.log(array)
+
+// array.push('x', 'z', 'y')
+
+// console.log(array)
+
+// 12 - Shift e Unshift
+
+// const letters = ['A', 'B', 'C', 'D']
+
+// const letter = letters.shift()
+
+// console.log(letter)
+
+// console.log(letters)
+
+// letters.unshift('P', 'Q', 'R')
+
+// letters.unshift('S')
+
+// console.log(letters)
+
+// 13 - IndexOf e lastIndexOF
+
+// const myElements = ['Morango', 'Maçã', 'Abacaxi', 'Pêra', 'Abacaxi']
+
+// console.log(myElements.indexOf('Maçã'))
+// console.log(myElements.indexOf('Abacaxi'))
+
+// console.log(myElements[2])
+
+// console.log(myElements[myElements.indexOf('Abacaxi')])
+
+// console.log(myElements.lastIndexOf('Abacaxi'))
+
+// console.log(myElements.indexOf('Mamão'))
+
+// console.log(myElements.lastIndexOf('Mamão'))
+
+
+// 14 - Slice
+
+// const testSlice = ['a', 'b', 'c', 'd', 'e', 'f']
+
+// const subArray = testSlice.slice(2, 4)
+
+// console.log(subArray)
+
+// console.log(testSlice)
+
+// const subArray2 = testSlice.slice(2, 4 + 1)
+
+// console.log(subArray2)
+
+// const subArray3 = testSlice.slice(10, 20)
+
+// console.log(subArray3)
+
+// const subArray4  = testSlice.slice(2)
+
+// console.log(subArray4)
+
+// 15 - forEach
+
+
+// const nums = [1, 2, 3, 4, 5]
+
+// nums.forEach((numbers) => {
+//     console.log(`O número é ${numbers}`)
+// })
+
+
+// const posts = [
+//     {title: 'Primeiro post', category: 'PHP'},
+//     {title: 'Segundo post', category: 'Javascript'},
+//     {title: 'Terceiro post', category: 'Python'}
+// ]
+
+// posts.forEach((post) => {
+//     console.log(`Exibindo posts: ${post.title}, da categoria ${post.category}`)
+// })
+
+
+// 16 - Includes
+
+
+// const brands = ['BMW', 'VW', 'Fiat']
+
+// console.log(brands.includes('Fiat'))
+// console.log(brands.includes('Porche'))
+
+
+
+// if(brands.includes('KIA')) {
+//     console.log('Há carros da marca BMW!')
+// }else {
+//     console.log('Não há carros desta marca em nossos registros')
+// }
+
+
+// 17 - Reverse
+
+// const reverseTeste = [1, 2, 3, 4, 5]
+
+// reverseTeste.reverse()
+
+// console.log(reverseTeste)
