@@ -254,3 +254,6 @@
 // reverseTeste.reverse()
 
 // console.log(reverseTeste)
+
+
+// 18 - 
